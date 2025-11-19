@@ -38,18 +38,6 @@ pip install numpy pandas matplotlib scipy
 - Para entregar a estudiantes: reactivar la celda con `input()` si se desea que ingresen su propio k.
 - Para evaluación automática: ajustar la tolerancia en la celda de validación (actualmente ±5%).
 
-## Cómo revisar/mergear el PR (si ya existe)
-1. Abrir la pestaña "Pull requests" del repositorio y seleccionar el PR.
-2. Revisar los cambios y, si todo está bien:
-   - Hacer clic en "Merge pull request".
-   - Confirmar con "Confirm merge".
-   - (Opcional) Borrar la rama de la que provino el PR.
-3. Alternativa CLI (con `gh`):
-   ```bash
-   gh pr merge <PR-number> --merge
-   ```
-   (requiere GitHub CLI y permisos)
-
 ## Contacto
 Para cualquier ajuste (cambiar tolerancia, modificar validación a interactiva, añadir salidas ejecutadas) contactar al mantenedor del repositorio.
 README.md
